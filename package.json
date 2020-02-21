@@ -1,0 +1,26 @@
+{
+  "name": "javascript",
+  "version": "0.0.1",
+  "description": "A collection of Javascript code snippets",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chosenbreed37/javascript.git"
+  },
+  "scripts": {
+    "test": "mocha --require @babel/register --require @babel/polyfill './**/*.tests.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chosenbreed37/javascript/issues"
+  },
+  "homepage": "https://github.com/chosenbreed37/javascript#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/polyfill": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/register": "^7.8.3",
+    "mocha": "^7.0.1"
+  }
+}
